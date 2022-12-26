@@ -24,7 +24,7 @@ This is a project template for [vue-cli](https://github.com/vuejs/vue-cli).
 
 ``` bash
 $ npm install -g vue-cli
-$ vue init evolutio/djavue2 myproject
+$ vue init mrcpaul/djavue2 myproject
 ```
 
 For initial setup, follow the README.md that was generated inside your `myproject` folder (which looks a lot like [this one](template/README.md))
