@@ -1,4 +1,4 @@
-FROM python:3.6-alpine
+FROM python:3.10-alpine
 
 RUN apk add openrc bash curl vim nano git zip unzip nginx make gcc g++ libc-dev linux-headers nodejs npm postgresql-libs musl-dev postgresql-dev && \
     mkdir /run/nginx && \
