@@ -19,14 +19,14 @@ module.exports = {
     fs.rename(`${base}__name__`, `${base}${data.name}`, onerror)
     cmds = data.inPlace ? '' : `cd ${data.destDirName}\n  `
     cmds += `follow the instructions on README.md
-  (or see https://github.com/evolutio/djavue2/blob/master/template/README.md)`
+  (or see https://github.com/mrcpaul/djavue2/blob/master/template/README.md)`
     const message = `
 # ${chalk.green('Project initialization finished!')}
 # ========================
 To get started:
   
   ${chalk.yellow(cmds)}
-Documentation can be found at https://github.com/evolutio/djavue2
+Documentation can be found at https://github.com/mrcpaul/djavue2
 `
     console.log(message)
   },
